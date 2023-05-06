@@ -9,7 +9,7 @@ draft: false
 ## Coding Goals and Habits
 
 -----------------------------------------------
-![image](https://media.istockphoto.com/id/1196044258/vector/2021-neon-signboard-bright-colorful-sign-festive-vector-banner.jpg?s=612x612&w=0&k=20&c=_YFwS-UXM-UotglpiHck99320gFcG5vLwr2dec4Bcew=)
+![2021-new-year's-banner](https://media.istockphoto.com/id/1196044258/vector/2021-neon-signboard-bright-colorful-sign-festive-vector-banner.jpg?s=612x612&w=0&k=20&c=_YFwS-UXM-UotglpiHck99320gFcG5vLwr2dec4Bcew=)
 
 -----------------------------------------------
 
