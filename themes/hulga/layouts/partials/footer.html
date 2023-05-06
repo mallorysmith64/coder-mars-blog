@@ -1,0 +1,14 @@
+<footer class="footer">
+  <div class="content has-text-centered">
+    {{- if .Site.Params.copyright -}}
+    {{ .Site.Params.copyright }}
+    {{- else -}}
+    {{ .Site.Copyright }}
+    {{ end }}
+    </p>
+  </div>
+</footer>
+{{ if .Site.Params.pwa }}
+{{ partial "pwa.html" . }}
+{{ end }}
+{{ template "_internal/google_analytics.html" . }}

@@ -1,0 +1,61 @@
+baseURL = "https://codermars.com/"
+languageCode = "en-us"
+title = "Coder Mars Blog"
+theme = 'hulga'
+
+[params]
+  # show in HTML meta tag
+  author = "Mars Smith"
+  keywords = "coding. blog, forms, form builder"
+  description = "coding blog"
+
+  # change bulma's primary color
+  primaryColor = "#26D1B2"
+
+  # subtitle on homepage
+  subtitle = "a coding journey"
+
+  # copyright text on footer
+  copyright = "Copyright © 2023. All rights reserved."
+
+  # enable katex rendering on every post page, default false
+  math = false
+
+  # enable postcss, mainly for css purge (129kB->20kB->4.8kB gzipped, but this makes build slower), default false
+  postcss = false
+
+  # enable showing content summary below post title in home page, default false
+  showSummary = true
+
+  # set paginate on taxonomy term page (tags or categories), default 10
+  termPaginate = 3
+
+  # enable toc on every post page, default false
+  toc = true
+
+  # enable TOC auto collapse, default false
+  autoCollapseToc = true
+
+  # enable prefers-color-scheme:dark, default false
+  darkMedia = true
+
+  # enable hero section's is-bold effect, default false
+  heroBold = false
+
+  # enable hero section that looks like steam deck's home page, default false
+  heroSteamDeck = false
+
+  # enable PWA, prepare your icons and DON'T forget to modify manifest.json, default false
+  pwa = false
+
+  # disable jsdelivr cdn, default false
+  noCDN = false
+
+# to enable different hightlight themes in light/dark mode
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[taxonomies]
+category = "categories"
+tag = "tags"
