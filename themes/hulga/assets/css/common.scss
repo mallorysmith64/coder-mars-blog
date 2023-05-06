@@ -58,6 +58,10 @@ body {
   transition: color .25s linear;
 }
 
+ol > li {
+  padding-bottom: 0.5em !important;
+}
+
 /* article content wrapper*/
 .sidebar {
   height: 100%;
