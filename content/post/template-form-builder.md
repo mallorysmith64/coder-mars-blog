@@ -16,7 +16,3 @@ draft: true
 ### [day header here]
 
 -----------------------------------------------
-
-#### Supplemental Resources
-
-1.
