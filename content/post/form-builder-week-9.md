@@ -34,7 +34,7 @@ I also spent time working on the "Save and Close" button functionality for the s
 
 ### What I Learned This Week – XP Gained
 
-*Perseverance* - Over the past 2 months, I've felt the urge to work on other projects in search of that new spark of excitement that many of us feel when starting a new challenge. However, by focusing and dedicating time solely on this project, I've found myself becoming more motivated to complete it as an MVP before moving on to anything else. 
+*Perseverance* - Over the past 2 months, I've felt the urge to work on other projects in search of that new spark of excitement that many of us feel when starting a new challenge. However, by focusing and dedicating time solely on this project, I've found myself becoming more motivated to complete it as an MVP before moving on to anything else.
 
 Even when I do finally "finish" my initial goals, there will still be many more features and tasks that will need to be completed. It can take a very long time to go through each stage in software development. Sometimes, it's loads of fun, other times it's frustrating and you just want to quit and take an easier path. Despite these challenges, I believe in staying focused, reaching one's goals, and setting new ones to go further than ever before.
 

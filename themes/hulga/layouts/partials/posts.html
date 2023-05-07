@@ -1,10 +1,7 @@
-{{- $ctx := . -}}
 <section class="section post-box-section">
   <div class="container">
-    <div class="columns">
-      <div class="column is-10 is-offset-1">
         <div class="columns">
-          <div class="column is-8">
+          <div class="column">
             <div class="post-lists">
               {{ $paginator := .Paginate (where (where .Site.Pages "Type" "post") "Kind" "page") }}
               {{ range $paginator.Pages }}
@@ -13,23 +10,24 @@
                   <a href="{{ .RelPermalink }}" class="title is-size-5">{{ .Title }}</a>
                 </div>
                 {{ if .Site.Params.showSummary }}
-                  <div class="post-box-summary">
-                    {{ .Summary }}
-                    {{ if .Truncated }}
-                    <span>
-                       <a href="{{ .RelPermalink }}">…Read More</a>
-                    </span>
-                    {{ end }}
-                  </div>
+                <div class="post-box-summary">
+                  {{ .Summary }}
+                  {{ if .Truncated }}
+                  <span>
+                    <a href="{{ .RelPermalink }}">…Read More</a>
+                  </span>
+                  {{ end }}
+                </div>
                 {{ end }}
+
                 <div class="post-box-meta">
-                  {{ .Date.Format "2006/01/02" }}
+                  {{ .Date.Format "01/02/2006" }}
                   {{ with (.GetTerms "categories") }} ・
-                    {{ range .}}
-                    <span class="post-tag post-box-category">
-                      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-                    </span>
-                    {{ end }}
+                  {{ range .}}
+                  <span class="post-tag post-box-category">
+                    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+                  </span>
+                  {{ end }}
                   {{ end }}
                 </div>
                 {{ with (.GetTerms "tags") }}
@@ -42,8 +40,10 @@
                 </div>
                 {{ end }}
               </div>
+
               {{ end }}
             </div>
+
             <div style="padding-top: 1.5rem;">
               {{ partial "paginator.html" . }}
             </div>
@@ -69,7 +69,7 @@
                 </div>
               </div>
             </div>
-            <br>
+       
             {{ end }}
 
             {{ if .Site.Taxonomies.tags }}
@@ -98,6 +98,5 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+    
 </section>
