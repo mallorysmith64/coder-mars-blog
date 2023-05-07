@@ -3,9 +3,7 @@
 <section class="section post-box-section">
     <div class="container">
         <div class="columns">
-            <div class="column is-10 is-offset-1">
-                <div class="columns">
-                    <div class="column is-8">
+                    <div class="column">
                         <h1 class="title is-1">Category: {{ .Title | title }}</h1>
                         <div class="post-lists">
                             {{ range where .Site.RegularPages "Type" "!=" "page" }}
@@ -100,8 +98,7 @@
                                 </div>
                                 {{ end }}
                             </div>
-                        </div>
-                    </div>
+                       
 
                 </div>
             </div>
