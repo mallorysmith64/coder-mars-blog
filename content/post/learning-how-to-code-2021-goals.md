@@ -4,7 +4,7 @@ date: 2021-01-02T09:00:00-00:00
 math: false
 tags: [coding, dsa, goals]
 categories: [goals]
-draft: false
+draft: true
 ---
 ## Coding - Goals and Habits
 
