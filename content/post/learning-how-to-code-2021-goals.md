@@ -3,8 +3,7 @@ title: "Learning How to Code in 2021 – S.M.A.R.T Goals"
 date: 2021-01-02T09:00:00-00:00
 math: false
 tags: [coding, dsa, goals]
-categories: [goals]
-draft: true
+draft: false
 ---
 ## Coding - Goals and Habits
 
